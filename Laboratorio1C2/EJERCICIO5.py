@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import (
 class MainVentana(QMainWindow): 
     def __init__(self):
         super().__init__()
-        self.setGeometry(350, 100, 400, 500)  # Posición y tamaño de la ventana
+        self.setGeometry(350, 100, 400, 500)  
         self.setWindowTitle("Ejercicio 5 - Datos de la Persona")
 
         # Crear un widget central
@@ -74,11 +74,9 @@ class MainVentana(QMainWindow):
         # Mostrar los resultados en la etiqueta
         self.resultado_label.setText("\n".join(resultados))
 
-# Crear la aplicación
+
 app = QApplication(sys.argv)
-# Crear la ventana principal
 ventana = MainVentana()
-# Mostrar la ventana
 ventana.show()
-# Ejecutar la aplicación
-sys.exit(app.exec_())
+app.exec()
+
