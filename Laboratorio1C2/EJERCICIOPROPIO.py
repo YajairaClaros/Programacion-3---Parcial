@@ -1,3 +1,6 @@
+'''Este es un programa que nos permite organizar la información académica de un estudiante de forma rápida y sin complicaciones, 
+haciendo que el proceso sea menos tedioso y más eficiente.'''
+
 import sys
 from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QWidget, QLabel, QVBoxLayout, QRadioButton, QComboBox, QSpinBox, QPushButton
